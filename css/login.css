@@ -1,0 +1,162 @@
+body * {
+  font-family: Montserrat !important;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  color: #852D91;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #852D91;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: #852D91;
+  opacity: 1;
+}
+
+::placeholder {
+  color: #852D91;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #852D91;
+}
+
+::-ms-input-placeholder {
+  color: #852D91;
+}
+
+button {
+  background: #852D91;
+  border: none;
+  color: white;
+  border-radius: 21px;
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #CBA6D0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5B1A64;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5B1A64;
+}
+
+body * {
+  font-family: Montserrat;
+}
+
+body .form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .form-container .form {
+  width: 359px;
+  height: 424px;
+  text-align: center;
+}
+
+body .form-container .form .title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+body .form-container .form .description {
+  color: #95ABC9;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 39px;
+}
+
+body .form-container .form .group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 21px;
+}
+
+body .form-container .form .group label {
+  font-size: 15px;
+  color: #153845;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+body .form-container .form .group label.username {
+  text-align: left;
+}
+
+body .form-container .form .group label.password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .form-container .form .group label.password .lost-password {
+  color: #95ABC9;
+}
+
+body .form-container .form .group input {
+  width: 359px;
+  height: 42px;
+  padding-left: 5px;
+  border-radius: 5px;
+  background: #CCD4DE;
+  border: 1px solid #DBDBDB;
+}
+
+body .form-container .form .sign-button {
+  width: 359px;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  color: white;
+  background: #852D91;
+  border: 1px solid #852D91;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+body .image {
+  background: url("../imgs/shutterstock_1066240592.png");
+}
+/*# sourceMappingURL=login.css.map */

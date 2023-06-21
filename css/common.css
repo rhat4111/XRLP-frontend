@@ -1,0 +1,65 @@
+body * {
+  font-family: Montserrat !important;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  color: #852D91;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #852D91;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: #852D91;
+  opacity: 1;
+}
+
+::placeholder {
+  color: #852D91;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #852D91;
+}
+
+::-ms-input-placeholder {
+  color: #852D91;
+}
+
+button {
+  background: #852D91;
+  border: none;
+  color: white;
+  border-radius: 21px;
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #CBA6D0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5B1A64;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5B1A64;
+}
+/*# sourceMappingURL=common.css.map */
